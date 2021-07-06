@@ -40,19 +40,31 @@ webpack-cli
 <html>
 <head>
     <meta charset="utf-8"/>
-    <title>Click me!</title>
+    <title>Click!</title>
 </head>
 <body>
+<div class="card">
     <p> Hola! Haz click en el botón para aumentar el contador </p>
     <button id="clicker">Click me!</button>
     <div id="counter"></div>
+</div>
 </body>
 </html>
 ```
 
 6. Creamos un archivo de estilos en `src/css/style.scss`:
 ```scss
+.card {
+  width: 300px;
+  border: thin solid black;
+  border-radius: 7px;
+  box-shadow: black 1px 1px;
+  margin: auto;
+  padding: 10px;
+}
+
 #clicker {
+  margin-bottom: 10px;
   &:hover {
     transform: translate(2px, 2px);
   }
