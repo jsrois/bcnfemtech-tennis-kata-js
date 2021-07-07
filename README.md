@@ -108,7 +108,7 @@ export class Counter {
 
 ### Webpack! 
 
-6. Creamos un archivo de configuración para webpack, `webpack.config.js`. En este archivo añadimos la siguiente configuración:
+8. Creamos un archivo de configuración para webpack, `webpack.config.js`. En este archivo añadimos la siguiente configuración:
 
 ```js
 const HtmlWebpackPlugin = require('html-webpack-plugin');
@@ -160,7 +160,7 @@ module.exports = {
 }
 ```
 
-7. modificamos el archivo `package.json`, añadiendo el comando `build`:
+9. modificamos el archivo `package.json`, añadiendo el comando `build`:
 
 ```json
     "scripts": [
