@@ -163,9 +163,9 @@ module.exports = {
 9. modificamos el archivo `package.json`, añadiendo el comando `build`:
 
 ```json
-    "scripts": [
-      "build" : "webpack --mode=production"    
-    ]
+    "scripts": {
+        "build": "webpack --mode=production"
+    }
 ```
 
 
